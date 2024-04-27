@@ -1,20 +1,15 @@
 @charset "utf-8";
 /*
    sample start file for final project - educational use only
-   
    Author:   Joe Litz
-   Date:     4/26/2024
+   Date:     4/26/2024    
    
   
 
 */
 
-* {
-    margin: 0; 
-    padding: 0;
-}
 
-}
+
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +20,7 @@ body {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
+    background-color: white;
 }
 
 
@@ -70,7 +66,8 @@ nav ul li a:hover {
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;     
+    border-right: 2px solid;    
+    background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
