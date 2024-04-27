@@ -27,6 +27,12 @@ body {
     background-color: white;
 }
 
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
 
 header {
     width: 910px;	/* reduced by 20px to accommodate shadow */
@@ -145,57 +151,3 @@ footer a:hover {
     text-decoration: underline;
 }
 
-table.schedule {
-	background: white;
-	border: 10px outset rgb(153, 0, 153);
-	border-collapse: collapse;
-	font-size: 0.75em;
-	width: 100%;
-}
-
-
-/* Table Cell Styles */
-table.schedule th, table.schedule td {
-	border: 1px solid gray;
-	padding: 5px;
-	vertical-align: top;
-}
-
-
-/* Table Caption Styles */
-
-table.schedule caption {
-	caption-side: bottom;
-	text-align: right;
-	
-}
-
-/* Row Group Styles */
-table.schedule thead {
-	background: rgb(153, 0, 153);
-	color: white;
-}
-
-table.schedule tfoot {
-	background: black;
-	color: white;
-}
-
-table.schedule thead tr {
-	height: 30px;
-}
-table.schedule tbody tr {
-	height: 40px;
-}
-
-/* Column Group Styles */
-
-col#firstCol {
-	background: rgb(218, 210, 218);
-	width: 16%;
-}
-
-col.dayCols {
-	background: rgb(255, 220, 255);
-	width: 12%;
-}
